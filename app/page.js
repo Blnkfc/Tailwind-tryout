@@ -26,60 +26,73 @@ export default function Home() {
        </div>
        <img src="/assets/header-img.png" alt="" className=" header__img w-122"/>
      </header>
-     <main className={"content"} >
-       <div className="content__course">
-         <img src="" alt="" className="content__course__img"/></div>
-         <div className="content__course__info">
-           <h1>Welcome to the online centers</h1>
-           <ul>
+     <main className={"content mt-56 px-24 "} >
+       <div className="content__course flex items-center ">
+         <img src="/assets/content-course.png" alt="" className="content__course__img w-120 h-96 mr-24 "/>
+         <div className="content__course__info ">
+           <h1 className={"text-6xl font-bold "} >Welcome to the online centers</h1>
+           <ul className={"text-2xl list-disc mt-4 "} >
              <li>Start learning from your experience  </li>
              <li>Enhance your skills with us now</li>
              <li>Do your favorite course</li>
            </ul>
          </div>
-       <div className="content__course">
-         <div className="content__course__info">
+       </div>
+       <div className="content__course flex items-center ">
+         <div className="content__course__info text-5xl mr-24 font-bold ">
            <h1>Start learning by creating free account and get register</h1>
          </div>
-         <img src="" alt="" className="content__course__img"/></div>
-       <div className="content__subscription">
-         <input type="text"/>
-         <input type="text"/>
-         <button>Subscribe</button>
+         <img src="/assets/content-course-2.png" alt="" className="content__course__img w-120 h-96  "/></div>
+       <div className="content__subscription flex mt-28 bg-primary w-full justify-around items-center h-36 ">
+         <input type="text" placeholder={"Your name"} className={"h-16 w-72 "} />
+         <input type="text" placeholder={"Your email address "} className={"h-16 w-72"} />
+         <button className={"bg-btn_dark text-white h-16 w-72 text-xl font-bold "} >Subscribe</button>
        </div>
-       <div className="content__community">
-         <h1>Start growing with our community</h1>
-         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, suscipit.</h4>
-         <button>Join community</button>
+       <div className="content__community bg-community_bg bg-cover w-full h-195 mt-48 ">
+         <div className={" flex-col items-center text-center w-132 mt-16 ml-16 "} >
+           <h1 className={"text-5xl font-bold w-132 text-center "} >Start growing with our community</h1>
+           <h4 className={"w-132 text-center mt-4 "} >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, suscipit.</h4>
+           <button className={"mt-16 bg-orange rounded-md h-16 w-64 text-xl "} >Join community </button>
+         </div>
        </div>
      </main>
-     <footer className={"footer"}>
-       <div className="footer__info">
-         <div className="footer__info__logo">
-           <img src="" alt=""/>
-           <span>Educate</span>
+     <footer className={"footer flex flex-col justify-between items-center bg-primary h-104 "}>
+       <div className="footer__info flex justify-around items-center w-full mt-28 ">
+         <div className="footer__info__logo flex">
+           <img src="/assets/logo.png" className={"w-10 h-10"} alt=""/>
+           <span className={"text-4xl"} >Educate</span>
          </div>
-         <div className="footer__info__socials">
-           <h3>Follow us</h3>
-           <button></button>
-           <button></button>
-           <button></button>
-           <button></button>
+         <div className="footer__info__socials flex-col ">
+           <h3 className={"text-xl font-bold "} >Follow us</h3>
+           <div className="footer__info__social__link flex items-center ">
+             <button className={" bg-cover w-8 h-8 mr-6 "} ><img src="/assets/contacts_tw.png" alt=""/></button>
+             <button className={" bg-cover w-8 h-8 mr-6 "} ><img src="/assets/contacts_ln.png" alt=""/></button>
+             <button className={" bg-cover w-9 h-9 mr-6 "} ><img src="/assets/contacts_fb.png" alt=""/></button>
+             <button className={" bg-cover w-8 h-8 mr-6 "} ><img src="/assets/contacts_ig.png" alt=""/></button>
+           </div>
          </div>
-         <div className={"footer__info__links"}>
-           <h3>Useful links</h3>
-           <a href="">Our projects</a>
-           <a href="">FAQ's</a>
-           <a href="">News and Updates</a>
+         <div className={"footer__info__links flex-col "}>
+           <h3 className={" text-xl font-bold "} >Useful links</h3>
+           <ul className={"list-disc"} >
+             <li>
+               <a href="">Our projects</a>
+               </li>
+             <li>
+               <a href="">FAQ&#39;s</a>
+             </li>
+             <li>
+               <a href="">News and Updates</a>
+             </li>
+           </ul>
          </div>
-         <div className="footer__info__contacts">
-           <h3>Contacts</h3>
+         <div className="footer__info__contacts flex-col ">
+           <h3 className={"text-xl font-bold"} >Contacts</h3>
            <p>Address : 4-5 Main road , Delhi </p>
            <p>Email : educare@gmail.com</p>
            <p>Phone Number : +91 4533433265</p>
          </div>
        </div>
-       <div className="footer__copyrights">All Copyrights reserved</div>
+       <div className="footer__copyrights mb-14 "> &#169; &nbsp;&nbsp; All Copyrights reserved</div>
      </footer>
    </div>
   )

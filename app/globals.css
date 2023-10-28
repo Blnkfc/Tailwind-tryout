@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.content__subscription input{
+}::-webkit-input-placeholder {
+     text-align: center;
+ }

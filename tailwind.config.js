@@ -6,6 +6,15 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    extend: {
+      backgroundImage: {
+        community_bg: "url('/assets/content-community-bg.png')",
+        contacts_ig:"url('/assets/contacts_ig.png')",
+        contacts_tw:"url('/assets/contacts_tw.png')",
+        contacts_ln:"url('/assets/contacts_ln.png')",
+        contacts_fb:"url('/assets/contacts_fb.png')",
+      }
+    },
     colors:{
       primary: '#F9E0AE',
       black: '#000',
@@ -54,7 +63,10 @@ module.exports = {
       96: '24rem',
       100: '25rem',
       104: '26rem',
-      122: '30.5rem'
+      120: '30rem',
+      122: '30.5rem',
+      132: '33rem',
+      195: '48.75rem',
     },
   },
   plugins: [],
