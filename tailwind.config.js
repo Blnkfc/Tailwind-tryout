@@ -66,8 +66,16 @@ module.exports = {
       120: '30rem',
       122: '30.5rem',
       132: '33rem',
+      160: '40rem',
       195: '48.75rem',
     },
+    screens:{
+      'xs': '320px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+    }
   },
   plugins: [],
 }
