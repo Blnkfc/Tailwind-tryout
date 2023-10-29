@@ -29,7 +29,7 @@ export default function Home() {
            <div className="navigation__list__link ">Courses <span className={"inline-block rotate-90 ml-1 "}>&#10093;</span> </div>
            <div className="navigation__list__link ">Blog <span className={"inline-block rotate-90 ml-1"} >&#10093;</span></div>
          </div>
-         <button className="navigation__contact bg-btn_dark text-white font-bold text-center ">
+         <button className="navigation__contact rounded-xl px-4 bg-btn_dark text-white font-bold text-center ">
            Contact us
          </button>
        </div>
